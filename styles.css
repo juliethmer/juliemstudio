@@ -1,0 +1,258 @@
+/*Fuente Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/*font-family: "Playfair Display", serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+background-color: black;
+color: white;
+}
+
+/*barra del navegador*/
+
+
+.logonavbar{
+width: 200px;
+padding: 16px;
+}
+
+
+/*Cuerpo*/
+
+
+body{
+background-color: beige;
+font-family: "Playfair Display", serif;
+}
+
+
+.contenedorbannerhome{
+text-align: center;
+color: white;
+background-image: url(./assets/hero\ home.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px 16px;
+font-size: 48px;
+}
+
+
+.contenedorcalltoaction{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+gap: 16px;
+text-align: center;
+padding: 32px 16px 32px 16px;
+background-color: rgb(86, 173, 173);
+color: white;
+}
+
+.contenedorcalltoaction img{
+width: 5%;
+}
+
+.contenedorfotoslinea{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 0px 16px 0px 16px;
+justify-items: center;
+}
+
+.contenedorfotoslinea img{
+width: 90%;
+}
+
+.boton1{
+    display: inline-block;
+    justify-content: center;
+    margin: 32px;
+    text-decoration: none;
+    color: black;   
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 8px;
+
+
+}
+
+.boton2{
+    display: inline-block;
+    justify-content: center;
+     text-decoration: none;
+    color: white;   
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+.boton3{
+    display: inline-block;
+    justify-content: center;
+     text-decoration: none;
+    color: rgb(86, 173, 173);  
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+  
+
+}
+
+
+
+
+.parrafos{
+text-align: center;
+padding-left: 32px;
+padding-right: 32px;
+
+
+}
+
+.parrafos img{
+width: 50%; 
+padding: 16px;   
+}
+
+
+
+h1{
+text-align: center;
+padding: 32px;
+font-size: 32px;
+}
+
+h2{
+font-style: italic;
+display: flex;
+justify-content: center;
+padding: 16px 0px 16px 0px;
+margin-bottom: 0px;
+}
+
+/*Footer*/
+
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #3e66af;
+color: white;
+padding: 16px;
+}
+
+.iconosredes{
+width: 70px;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+
+/*Estilizados especificos de paginas*/
+
+
+.contenedorproyectos{
+display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Por si quieres centrar verticalmente (no obligatorio) */
+  padding: 32px;
+  gap: 24px;
+
+}
+
+
+.carousel-inner{
+height: 600px;
+align-items: center; 
+padding: 0px 32px 0px 32px;
+}
+
+
+
+.contenedorservicio{
+display: flex;
+gap: 32px;
+align-items: center;
+}
+
+.contenedorservicio img{
+width: 30%;
+}
+
+.contenedorservicio div{
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+
+.contenedorbannernosotros{
+text-align: center;
+color: white;
+background-image: url(./assets/banner\ nosotros.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px;
+}
+
+.contenedorbannercontacto{
+text-align: center;
+color: white;
+background-image: url(./assets/banner\ contactenos.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px;
+}
+
+
+/*Media Queries*/
+
+@media(max-width: 450px){
+
+footer{
+flex-direction: column;
+}
+
+.contenedorfotoslinea{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.contenedorservicio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenedorservicio img {
+    width: 80%;
+  }
+
+  .contenedorservicio div {
+    align-items: center;
+    padding: 16px;
+  }
+  }
+
+@media (min-width: 431px) and (max-width: 768px) {
+
+
+
+
+}
