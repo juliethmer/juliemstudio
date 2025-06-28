@@ -17,11 +17,22 @@ color: white;
 /*barra del navegador*/
 
 
+.navbarpropio{
+background-color: rgb(189, 52, 75) !important;
+}
+
 .logonavbar{
 width: 200px;
 padding: 16px;
 }
 
+.nav-link{
+color: white;
+}
+
+.navbar-toggler-icon{
+color: white;
+}
 
 /*Cuerpo*/
 
